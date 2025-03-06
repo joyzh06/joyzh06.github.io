@@ -37,6 +37,18 @@
     padding-bottom: 8px;
 }
 
+.project-image-right-holder {
+    padding: 24px 0px 12px 24px;
+    width: 100%;
+    height: auto;
+}
+
+.project-image-left-holder {
+    padding: 24px 24px 12px 0px;
+    width: 100%;
+    height: auto;
+}
+
 #header-holder {
     height: auto;
     width: 100%;
@@ -91,27 +103,52 @@
     /* background-color: red; */
 }
 
-#header-link:link { 
+.header-link:link { 
     text-decoration: none; 
 }
 
-#header-link:visited { 
+.header-link:visited { 
     text-decoration: none; 
 }
 
-#header-link:hover { 
+.header-link:hover { 
     text-decoration: none;
 }
 
-#header-link:active { 
+.header-link:active { 
     text-decoration: none; 
 }
 
-#header-link:hover {
+.header-link:hover {
     -webkit-filter: brightness(80%);
     -webkit-transition: all 0.1s ease;
     -moz-transition: all 0.1s ease;
     -o-transition: all 0.1s ease;
     -ms-transition: all 0.1s ease;
     transition: all 0.1s ease;
+}
+
+.game-link:hover {
+    text-decoration: none;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 6px;
+}
+
+.project-image-row-2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 49.5%);
+    gap: 1%;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-video {
+    width: 100%;
+    aspect-ratio: 16/9;
 }
