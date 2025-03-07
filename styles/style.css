@@ -149,6 +149,15 @@
     justify-content: center;
 }
 
+.project-image-labels-2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 49.5%);
+    gap: 1%;
+    justify-items: left;
+    justify-content: center;
+}
+
 .project-image-row-3 {
     width: 100%;
     display: grid;
@@ -159,6 +168,15 @@
     justify-content: center;
 }
 
+.project-image-labels-3 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 32.66%);
+    gap: 1%;
+    justify-items: left;
+    justify-content: center;
+}
+
 .project-image-row-4 {
     width: 100%;
     display: grid;
@@ -166,6 +184,15 @@
     gap: 1%;
     justify-items: center;
     align-items: center;
+    justify-content: center;
+}
+
+.project-image-labels-4 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 24.25%);
+    gap: 1%;
+    justify-items: left;
     justify-content: center;
 }
 
