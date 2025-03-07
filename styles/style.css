@@ -149,6 +149,26 @@
     justify-content: center;
 }
 
+.project-image-row-3 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 32.66%);
+    gap: 1%;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-image-row-4 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 24.25%);
+    gap: 1%;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
 .project-video {
     width: 100%;
     aspect-ratio: 16/9;
