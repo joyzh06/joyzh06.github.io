@@ -49,10 +49,9 @@
     height: auto;
 }
 
-.project-image-center-holder {
+.project-image-center-holder-squareish {
     padding: 0px 0px 12px 0px;
-    width: 50%;
-    max-width: 50%;
+    width: 25%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -129,7 +128,7 @@
 }
 
 .header-link:hover {
-    -webkit-filter: brightness(80%);
+    color: silver;
     -webkit-transition: all 0.1s ease;
     -moz-transition: all 0.1s ease;
     -o-transition: all 0.1s ease;
@@ -138,7 +137,14 @@
 }
 
 .game-link:hover {
-    text-decoration: none;
+    /* text-decoration: none; */
+    text-decoration-color: #909090;
+    color: #909090;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    transition: all 0.1s ease;
 }
 
 .project-image {
